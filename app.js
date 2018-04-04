@@ -21,10 +21,10 @@ function addTask(e)  {
   }
 
   // Create li element
-  const li = document,createElement('li');
+  const li = document.createElement('li');
   // Add class
   li.className = 'collection-item';
 
-  
+
   e.preventDefault();
 }
